@@ -2,7 +2,15 @@
 
 A Go tool to convert backup files between the Mihon and Kotatsu Android apps.
 
----
+> [!TIP]
+> **Did you know?**
+>
+> `mk-bkconv` means:
+> 1. `mk` → mihon-kotatsu
+> 2. `bk` → backup
+> 3. `conv` → converter
+>
+> <sub><sup>couldn't think of a better name. at least it's straightforward.</sup></sub>
 
 <!-- Note: this project is educational and MIT-licensed. -->
 
