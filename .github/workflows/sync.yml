@@ -1,0 +1,42 @@
+name: Sync upstream (galpt/mk-bkconv)
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Add upstream
+        run: |
+          git remote add upstream https://github.com/galpt/mk-bkconv.git || true
+          git fetch upstream --tags
+
+      - name: Merge upstream
+        run: |
+          if git show-ref --verify --quiet refs/remotes/upstream/main; then
+            git merge upstream/main --no-edit || true
+          elif git show-ref --verify --quiet refs/remotes/upstream/master; then
+            git merge upstream/master --no-edit || true
+          else
+            echo "No upstream branch found"
+          fi
+
+      - name: Push to fork
+        run: |
+          git push origin HEAD

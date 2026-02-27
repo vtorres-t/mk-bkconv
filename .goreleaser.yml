@@ -1,0 +1,58 @@
+project_name: mk-bkconv
+
+builds:
+  - id: mk-bkconv
+
+    # mk-bkconv CLI location in this repository
+    main: ./cmd/mk-bkconv
+
+    env:
+      - CGO_ENABLED=0
+
+    # IMPORTANT:
+    # the produced binary name will contain OS and ARCH
+    binary: mk-bkconv_{{ .Os }}_{{ .Arch }}
+
+    goos:
+      - windows
+      - linux
+      - darwin
+      - freebsd
+      - openbsd
+      - netbsd
+
+    goarch:
+      - amd64
+      - 386
+      - arm
+      - arm64
+      - ppc64le
+      - s390x
+      - riscv64
+
+    ldflags:
+      - -s
+      - -w
+
+archives:
+  - id: default
+    builds:
+      - mk-bkconv
+
+    # archive file name will also contain OS and ARCH
+    name_template: >-
+      mk-bkconv_{{ .Os }}_{{ .Arch }}
+
+    format: tar.gz
+
+    files:
+      - README.md
+      - README-actions.md
+      - README-download.md
+      - LICENSE
+
+checksum:
+  name_template: checksums.txt
+
+changelog:
+  use: git
