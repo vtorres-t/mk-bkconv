@@ -385,6 +385,18 @@ var KnownSourceMapping = map[string]SourceMapping{
 		MihonVersionID: 1,
 		Notes:          "can be all, en or ko",
 	},
+	"EMPERORSCAN": {
+		MihonName:      "Emperor Scan",
+		MihonLang:      "es",
+		MihonVersionID: 1,
+		Notes:          "",
+	},
+	"OLIMPOSCANS": {
+		MihonName:      "Olympus Scanlation",
+		MihonLang:      "es",
+		MihonVersionID: 1,
+		Notes:          "",
+	},
 }
 
 // SourceMapping represents a known mapping from Kotatsu to Mihon source
