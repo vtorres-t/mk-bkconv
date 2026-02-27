@@ -397,6 +397,42 @@ var KnownSourceMapping = map[string]SourceMapping{
 		MihonVersionID: 1,
 		Notes:          "",
 	},
+	"PORNCOMIC18": {
+		MihonName:      "18 Porn Comic",
+		MihonLang:      "en",
+		MihonVersionID: 1,
+		Notes:          "",
+	},
+	"COMICK_FUN": {
+		MihonName:      "Comick",
+		MihonLang:      "all",
+		MihonVersionID: 1,
+		Notes:          "",
+	},
+	"NINEMANGA_ES": {
+		MihonName:      "NineManga",
+		MihonLang:      "all",
+		MihonVersionID: 1,
+		Notes:          "",
+	},
+	"MHSCANS": {
+		MihonName:      "MHScans",
+		MihonLang:      "es",
+		MihonVersionID: 1,
+		Notes:          "",
+	},
+	"NOBLESSETRANSLATIONS": {
+		MihonName:      "Noblesse Translations",
+		MihonLang:      "es",
+		MihonVersionID: 1,
+		Notes:          "",
+	},
+	"DRAGONTRANSLATIONORG": {
+		MihonName:      "DragonTranslation.net",
+		MihonLang:      "es",
+		MihonVersionID: 1,
+		Notes:          "",
+	},
 }
 
 // SourceMapping represents a known mapping from Kotatsu to Mihon source
