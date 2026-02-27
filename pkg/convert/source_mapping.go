@@ -548,7 +548,6 @@ var KnownSourceMapping = map[string]SourceMapping{
 		Notes:          "",
 	},
 }
-}
 
 // SourceMapping represents a known mapping from Kotatsu to Mihon source
 type SourceMapping struct {
