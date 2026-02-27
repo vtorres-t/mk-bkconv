@@ -433,6 +433,121 @@ var KnownSourceMapping = map[string]SourceMapping{
 		MihonVersionID: 1,
 		Notes:          "",
 	},
+	"NHENTAI": {
+		MihonName:      "NHentai",
+		MihonLang:      "es",
+		MihonVersionID: 1,
+		Notes:          "",
+	},
+	"TUMANGAONLINE": {
+		MihonName:      "TuMangaOnline",
+		MihonLang:      "es",
+		MihonVersionID: 1,
+		Notes:          "",
+	},
+	"MANGATV": {
+		MihonName:      "mangatv",
+		MihonLang:      "es",
+		MihonVersionID: 1,
+		Notes:          "",
+	},
+	"MANGAREADERTO": {
+		MihonName:      "MangaReader",
+		MihonLang:      "all",
+		MihonVersionID: 1,
+		Notes:          "",
+	},
+	"TUMANHWAS": {
+		MihonName:      "TuManhwas",
+		MihonLang:      "es",
+		MihonVersionID: 1,
+		Notes:          "",
+	},
+	"LECTORHENTAI": {
+		MihonName:      "lectorhentai",
+		MihonLang:      "es",
+		MihonVersionID: 1,
+		Notes:          "",
+	},
+	"DOUJIN_HENTAI_NET": {
+		MihonName:      "DoujinHentai",
+		MihonLang:      "es",
+		MihonVersionID: 1,
+		Notes:          "",
+	},
+	"HENTAIREADER": {
+		MihonName:      "hentaireader",
+		MihonLang:      "es",
+		MihonVersionID: 1,
+		Notes:          "",
+	},
+	"DOUJINSHELL": {
+		MihonName:      "DoujinsHell",
+		MihonLang:      "es",
+		MihonVersionID: 1,
+		Notes:          "",
+	},
+	"MANGAFIRE_ESLA": {
+		MihonName:      "MangaFire",
+		MihonLang:      "all",
+		MihonVersionID: 1,
+		Notes:          "",
+	},
+	"DARKNEBULUS": {
+		MihonName:      "darknebulus",
+		MihonLang:      "es",
+		MihonVersionID: 1,
+		Notes:          "",
+	},
+	"TAURUSMANGA": {
+		MihonName:      "Taurus Fansub",
+		MihonLang:      "es",
+		MihonVersionID: 1,
+		Notes:          "",
+	},
+	"TRESDAOS": {
+		MihonName:      "Tres Daos Scan",
+		MihonLang:      "es",
+		MihonVersionID: 1,
+		Notes:          "",
+	},
+	"MI2MANGAES": {
+		MihonName:      "Es.Mi2Manga",
+		MihonLang:      "es",
+		MihonVersionID: 1,
+		Notes:          "",
+	},
+	"JEAZTWOBLUESCANS": {
+		MihonName:      "JEAZTWOBLUESCANS",
+		MihonLang:      "es",
+		MihonVersionID: 1,
+		Notes:          "",
+	},
+	"ARTESSUPREMAS": {
+		MihonName:      "ARTESSUPREMAS",
+		MihonLang:      "es",
+		MihonVersionID: 1,
+		Notes:          "",
+	},
+	"MANGATOWN": {
+		MihonName:      "Mangatown",
+		MihonLang:      "en",
+		MihonVersionID: 1,
+		Notes:          "",
+	},
+	"RIGHTDARKSCAN": {
+		MihonName:      "Rightdark Scan",
+		MihonLang:      "es",
+		MihonVersionID: 1,
+		Notes:          "",
+	},
+	"MANHWA_ES": {
+		MihonName:      "MANHWA_ES",
+		MihonLang:      "es",
+		MihonVersionID: 1,
+		Notes:          "",
+	},
+}
 }
 
 // SourceMapping represents a known mapping from Kotatsu to Mihon source
