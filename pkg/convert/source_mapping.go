@@ -403,12 +403,6 @@ var KnownSourceMapping = map[string]SourceMapping{
 		MihonVersionID: 1,
 		Notes:          "",
 	},
-	"COMICK_FUN": {
-		MihonName:      "Comick",
-		MihonLang:      "all",
-		MihonVersionID: 1,
-		Notes:          "",
-	},
 	"NINEMANGA_ES": {
 		MihonName:      "NineManga",
 		MihonLang:      "all",
@@ -526,12 +520,6 @@ var KnownSourceMapping = map[string]SourceMapping{
 	"ARTESSUPREMAS": {
 		MihonName:      "ARTESSUPREMAS",
 		MihonLang:      "es",
-		MihonVersionID: 1,
-		Notes:          "",
-	},
-	"MANGATOWN": {
-		MihonName:      "Mangatown",
-		MihonLang:      "en",
 		MihonVersionID: 1,
 		Notes:          "",
 	},
